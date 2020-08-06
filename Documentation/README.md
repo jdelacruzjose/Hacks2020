@@ -1,6 +1,6 @@
 Follow these steps in the root directory of your project folder.
 
-Or just copy and paste the following to the root directory of you project folder:
+Or just copy and paste (make sure ESLint & Prettier extensions are already installed!) the following to the root directory of you project folder:
 
 - .eslintrc.json
 - .prettierrc
