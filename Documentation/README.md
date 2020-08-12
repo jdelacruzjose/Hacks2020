@@ -1,17 +1,5 @@
 Follow these steps in the root directory of your project folder.
 
-Or just copy and paste (make sure ESLint & Prettier extensions are already installed!) the following to the root directory of you project folder:
-
-- .eslintrc.json
-- .prettierrc
-- package.json
-
-... and then in your terminal run
-
-```
-npm i
-```
-
 tutorial from https://www.youtube.com/watch?v=SydnKbGc7W8
 
 # VSCode - ESLint, Prettier & Airbnb Setup
@@ -55,3 +43,30 @@ npx install-peerdeps --dev eslint-config-airbnb
 - ESLint Rules - https://eslint.org/docs/rules/
 - Prettier Options - https://prettier.io/docs/en/options.html
 - Airbnb Style Guide - https://github.com/airbnb/javascript
+
+
+
+
+Or just copy and paste (make sure ESLint & Prettier extensions are already installed!) the following to the root directory of you project folder:
+
+- .eslintrc.json
+- .prettierrc
+- package.json
+
+... and then in your terminal run
+
+```
+npm i
+```
+
+then run 
+
+```
+npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
+```
+
+then run
+
+```
+npx install-peerdeps --dev eslint-config-airbnb
+```
